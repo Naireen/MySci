@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Kinematic Equations"
+        android:id="@+id/kinematicsButton"
+        android:background="@drawable/mybutton"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Free Body Diagrams"
+        android:id="@+id/fbdButton"
+        android:background="@drawable/mybutton"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout><!-- From: file:/C:/Users/Twins/Desktop/MySci/With%20Conversion/MySci8-2015-04-12/MySci8/PeriodicTable4/app/src/main/res/layout/physics_options.xml -->

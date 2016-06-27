@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Angel!</string>
+    <string name="app_name">mySci</string>
+    <string name="moles">Moles</string>
+    <string name="mass">Mass</string>
+
+
+    <string name="country_prompt">Choose a country</string>
+
+    <string-array name="country_arrays">
+        <item>in to cm</item>
+        <item>ft to m</item>
+        <item>yd to m</item>
+        <item>mile to km</item>
+        <item>mile to m</item>
+        <item>acre to m²</item>
+        <item>gal(US) to L</item>
+        <item>gal(UK) to L</item>
+        <item>K to °C</item>
+        <item>km/h to m/s</item>
+        <item>oz to g</item>
+        <item>lb to kg</item>
+        <item>atm to kPa</item>
+        <item>mmHg to kPa</item>
+        <item>hp to kW</item>
+        <item>kgf/cm² to kPa</item>
+        <item>°F to °C</item>
+        <item>J to cal</item>
+    </string-array>
+
+
+</resources>

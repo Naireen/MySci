@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="57dp"
+            android:background="@drawable/mybutton"
+            android:text="Calculate and Draw" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="107dp"
+            android:background="@drawable/mybutton"
+            android:text="Clear All Fields"/>
+
+        <TextView
+            android:id="@+id/TextMass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="Mass(kg)"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextAcceleration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="50dp"
+            android:text="Acceleration(m/s^2)"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextForce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="85dp"
+            android:text="Force (N)"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/editTextMass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/TextMass"
+            android:layout_alignParentRight="true"
+            android:inputType="numberDecimal"
+            android:layout_alignLeft="@+id/editTextAcceleration" />
+
+
+        <EditText
+            android:id="@+id/editTextAcceleration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/TextAcceleration"
+            android:layout_alignParentRight="true"
+            android:inputType="numberDecimal|numberSigned"
+            android:layout_alignLeft="@+id/editTextForce" />
+
+        <EditText
+            android:id="@+id/editTextForce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/TextForce"
+            android:layout_alignParentRight="true"
+            android:inputType="numberDecimal|numberSigned"
+            android:layout_toRightOf="@+id/button" />
+
+        <android.gesture.GestureOverlayView
+            android:id="@+id/gestureOverlayView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextForce"
+            android:layout_centerHorizontal="true"></android.gesture.GestureOverlayView>
+
+
+    </RelativeLayout>
+</LinearLayout><!-- From: file:/C:/Users/Naireen/Desktop/PeriodicTable4/app/src/main/res/layout/free_body_diagram.xml -->

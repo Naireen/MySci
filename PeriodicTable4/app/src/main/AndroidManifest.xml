@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androidhive"
+    android:versionCode="2"
+    android:versionName="2.1" >
+
+    <uses-sdk android:minSdkVersion="12" />
+
+    <application
+        android:icon="@drawable/pic"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo" >
+        <activity
+            android:label="@string/app_name"
+            android:name="mySci.mySciApps.mySciAPP.MainScreen"
+          >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- FullImageActivity -->
+        <activity android:name="mySci.mySciApps.mySciAPP.FullImageActivity"></activity>
+        <activity android:name="mySci.mySciApps.mySciAPP.MolarMass"></activity>
+        <activity android:name="mySci.mySciApps.mySciAPP.AndroidGridLayoutActivity"></activity>
+        <activity android:name="mySci.mySciApps.mySciAPP.Kinematics"></activity>
+        <activity android:name="mySci.mySciApps.mySciAPP.FBD_Screen"></activity>
+        <activity android:name="mySci.mySciApps.mySciAPP.OptionsPhysics"></activity>
+        <activity android:name="mySci.mySciApps.mySciAPP.mathCode"></activity>
+        <activity android:name="mySci.mySciApps.mySciAPP.MathOptionScreen"></activity>
+        <activity android:name="mySci.mySciApps.mySciAPP.ChemistryOptionsScreen"></activity>
+        <activity android:name="mySci.mySciApps.mySciAPP.ConvertCode"></activity>
+        <activity android:name="mySci.mySciApps.mySciAPP.GasLawCode"></activity>
+
+    </application>
+
+</manifest>

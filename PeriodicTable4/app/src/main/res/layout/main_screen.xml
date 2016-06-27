@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="mySci"
+        android:textColor="#FF0000"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/flask"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/physics"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/mybutton"
+        android:text="Physics"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#FDFF00" />
+
+    <Button
+        android:id="@+id/chem"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@drawable/mybutton"
+        android:text="Chemistry"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ff0bc937" />
+    <Button
+        android:id="@+id/generalMath"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@drawable/mybutton"
+        android:text="Math"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FF0000" />
+
+
+</LinearLayout>

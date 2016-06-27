@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Enter in the equation values to solve for its solutions."
+        android:id="@+id/title"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ax² + bx + c = 0"
+        android:id="@+id/equation"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="26sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Enter A value"
+        android:id="@+id/aValue"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="55dp"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Enter B value"
+        android:layout_below="@+id/aValue"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/bValue"
+        android:layout_gravity="center_horizontal"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cValue"
+         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/bValue"
+        android:layout_marginLeft="15dp"
+        android:text="Enter C value"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Answer:"
+        android:id="@+id/answer"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/cValue"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/aAnswer"
+        android:layout_alignParentRight="true"
+        android:inputType="numberDecimal|numberSigned"
+        android:layout_alignBaseline="@+id/aValue"
+        android:layout_gravity="center_horizontal"
+        android:textSize="22sp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/bAnswer"
+        android:layout_alignParentRight="true"
+        android:inputType="numberDecimal|numberSigned"
+        android:layout_alignBaseline="@+id/bValue"
+        android:layout_gravity="center_horizontal"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/cAnswer"
+        android:layout_alignParentRight="true"
+        android:inputType="numberDecimal|numberSigned"
+        android:layout_alignBaseline="@+id/cValue"
+        android:layout_gravity="center_horizontal"
+        android:textSize="22sp"/>
+    <Button
+        android:id="@+id/buttonC"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/finalAnswer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp"
+        android:background="@drawable/mybutton"
+        android:text="Calculate " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/finalAnswer"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/cValue"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="22sp"/>
+
+
+
+</RelativeLayout><!-- From: file:/C:/Users/Twins/Desktop/MySci/With%20Conversion/MySci8-2015-04-12/MySci8/PeriodicTable4/app/src/main/res/layout/quadratic_screen.xml -->
